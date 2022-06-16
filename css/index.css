@@ -1,10 +1,32 @@
+:root{
+    --roxo: #6710f2a2;
+    --roxo-terc: #6f42c1;
+    --preta: #080808;
+}
+
+.bg-nav-container{
+    background: linear-gradient(var(--roxo-terc), var(--roxo) 100%); 
+}
+
 .link{
     text-decoration: none;
-    color: #080808;
+    color: var(--preta);
     font-weight: 400;
 }
 
 .link:hover{
     opacity: 0.8;
-    color: #222121cc;
+    color: var(--roxo-terc);
+}
+
+.nav-img{
+    width: 25px;
+    height: 25px;
+}
+
+.main-capture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 260px;
 }
