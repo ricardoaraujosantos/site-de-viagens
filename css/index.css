@@ -9,6 +9,8 @@
     --roxo-terc: #6f42c1;
     --preta: #080808;
     --laranja: #fa8907ef;
+    --bg-footer: #1c0a8098;
+    --fonte: #222020;
 }
 
 .bg-nav-container{
@@ -17,6 +19,7 @@
 
 .title-logo::first-letter{
     font-size: 34px;
+    font-weight: bolder;
     color: var(--laranja);
 }
 
@@ -43,14 +46,19 @@
     height: 260px;
 }
 
+.btn-lupa{
+    background: url(../images/icon-lupa.png) no-repeat;
+    background-size: contain;
+    width: 50px;
+}
+
 .carousel-aside{
     max-width: 50%;
-    float: left;
-    
+    float: left;  
 }
 
 .carousel-aside img{
-    height: 406px;
+    height: 424px;
     border-radius: 10px;
 }
 
@@ -64,9 +72,42 @@
     border-radius: 20px;
 }
 
-/* Response */
+.bg-footer{
+    background-color: var(--bg-footer);
+    color: var(--fonte);
+}
 
-@media screen and (max-width: 768px) {
+.bg-footer a{
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.6;
+    color: var(--fonte);
+}
+
+.bg-footer a:hover{
+    opacity: 1;
+    color: var(--fonte);
+}
+
+.bg-footer-fluid{
+    background-color: transparent;
+}
+
+.footer-img{
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1298px){
+    .carousel-aside img{
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 966px) {
     .carousel-aside{
         max-width: 100%;  
         margin: 10px 0;
@@ -101,7 +142,6 @@
         width: 87px;
         text-align: left;
         padding: 2px 0;
-        
     }
 
     .ajust-nav-sm{
@@ -114,6 +154,15 @@
     .ajust-nav-sm li{
         font-size: 16px;
         width: 300px;  
+    }
+
+    .sm-footer-row{
+       display: flex;
+       flex-direction: column;
+    }
+    
+    .sm-footer-row .sm-footer-col {
+      width: 300px;
     }
 
 }
