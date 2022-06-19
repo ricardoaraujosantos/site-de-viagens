@@ -9,6 +9,8 @@
     --roxo-terc: #6f42c1;
     --preta: #080808;
     --laranja: #fa8907ef;
+    --laranja-terc:#fa6007ef;
+    --bg-form: #ccc6aa8a;
     --bg-footer: #1c0a8098;
     --fonte: #222020;
 }
@@ -101,9 +103,13 @@
 }
 
 .span-img{
-    color: #fa6007ef;
+    color: var(--laranja-terc);
     font-size: 20px;
     font-weight: bold;
+}
+
+.bg-forms{
+    background-color: var(--bg-form);
 }
 
 /* Responsive */
