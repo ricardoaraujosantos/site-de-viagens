@@ -1,11 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --roxo: #6710f2a2;
     --roxo-terc: #6f42c1;
     --preta: #080808;
+    --laranja: #fa8907ef;
 }
 
 .bg-nav-container{
     background: linear-gradient(var(--roxo-terc), var(--roxo) 100%); 
+}
+
+.title-logo::first-letter{
+    font-size: 34px;
+    color: var(--laranja);
 }
 
 .link{
@@ -29,4 +41,79 @@
     flex-direction: column;
     align-items: center;
     height: 260px;
+}
+
+.carousel-aside{
+    max-width: 50%;
+    float: left;
+    
+}
+
+.carousel-aside img{
+    height: 406px;
+    border-radius: 10px;
+}
+
+.aside-right img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.caption-img{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+
+/* Response */
+
+@media screen and (max-width: 768px) {
+    .carousel-aside{
+        max-width: 100%;  
+        margin: 10px 0;
+    }
+
+    .ajust-nav-sm{
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 16px;
+        width: 100%;  
+    }
+
+    .ajust-nav-sm li{
+        font-size: 16px;
+        width: 340px;  
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .carousel-aside{
+        max-width: 100%;    
+        margin: 65px 0;
+    }
+
+    .carousel-aside img{
+        height: 200px;
+    }
+
+    .ajust-capture-sm {
+        font-size: 16px;
+        width: 87px;
+        text-align: left;
+        padding: 2px 0;
+        
+    }
+
+    .ajust-nav-sm{
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 16px;
+        width: 100%;  
+    }
+
+    .ajust-nav-sm li{
+        font-size: 16px;
+        width: 300px;  
+    }
+
 }
