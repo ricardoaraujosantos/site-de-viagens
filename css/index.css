@@ -10,11 +10,16 @@
     --preta: #080808;
     --laranja: #fa8907ef;
     --laranja-terc:#fa6007ef;
-    --bg-form: #ccc6aa8a;
+    --bg-theme: #dbd6d6ec;
     --bg-footer: #1c0a8098;
     --fonte: #222020;
 }
 
+.bg-theme{
+    background-color: var(--bg-theme);
+}
+
+/* Index main */
 .bg-nav-container{
     background: linear-gradient(var(--roxo-terc), var(--roxo) 100%); 
 }
@@ -75,6 +80,7 @@
     border-radius: 20px;
 }
 
+/* Footer & forms */
 .bg-footer{
     background-color: var(--bg-footer);
     color: var(--fonte);
@@ -112,6 +118,72 @@
     background-color: var(--bg-form);
 }
 
+/* Cards page promo */
+.bg-card-img1{
+    background: linear-gradient( rgba( 0,0,0,.60), rgba(0,0,0,.60 ) 100% ),
+      url(../images/porto-seguro.jpg) no-repeat;
+    background-size: cover;
+    color: #ffff;
+    width: 18rem;
+    transform: scale(0.9);
+    transition: all 0.8s ease-out;
+}
+
+.bg-card-img2{
+    background: linear-gradient( rgba( 0,0,0,.60), rgba(0,0,0,.60 ) 100% ),
+      url(../images/jericoacoara.jpg) no-repeat;
+    background-size: cover;
+    color: #ffff;
+    width: 18rem;
+    transform: scale(0.9);
+    transition: all 0.8s ease-out;
+}
+
+.bg-card-img3{
+    background: linear-gradient( rgba( 0,0,0,.60), rgba(0,0,0,.60 ) 100% ),
+      url(../images/porto-galinhas.jpg) no-repeat;
+    background-size: cover;
+    color: #ffff;
+    width: 18rem;
+    transform: scale(0.9);
+    transition: all 0.8s ease-out;
+}
+
+.bg-card-img4{
+    background: linear-gradient( rgba( 0,0,0,.60), rgba(0,0,0,.60 ) 100% ),
+      url(../images/rio-jn.jpg) no-repeat;
+    background-size: cover;
+    color: #ffff;
+    width: 18rem;
+    transform: scale(0.9);
+    transition: all 0.8s ease-out;
+}
+
+.bg-card-img5{
+    background: linear-gradient( rgba( 0,0,0,.60), rgba(0,0,0,.60 ) 100% ),
+      url(../images/foz-iguacu.jpg) no-repeat;
+    background-size: cover;
+    color: #ffff;
+    width: 18rem;
+    transform: scale(0.9);
+    transition: all 0.8s ease-out;
+}
+
+.bg-card-img6{
+    background: linear-gradient( rgba( 0,0,0,.40), rgba(0,0,0,.40 ) 100% ),
+      url(../images/morro-ba.jpg) no-repeat;
+    background-size: cover;
+    color: #ffff;
+    width: 18rem;
+    transform: scale(0.9);
+    transition: all 0.8s ease-out;
+}
+
+.mouse-up:hover{
+    transform: scale(1);
+}
+
+
 /* Responsive */
 
 @media screen and (max-width: 1298px){
@@ -136,6 +208,10 @@
     .ajust-nav-sm li{
         font-size: 16px;
         width: 340px;  
+    }
+
+    .input-form{
+        width: 100%;
     }
 
 }
