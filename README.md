@@ -5,7 +5,9 @@ Formação Full Stack Recode Pro, projeto Front-end um site responsivo desenvolv
 
 # Sobre o projeto
 
-## Navegar
+## Nome: Viajar 1.0
+
+### Clique no link abaixo para navegar no site
 
 https://clinquant-treacle-5eea19.netlify.app
 
@@ -13,7 +15,7 @@ https://clinquant-treacle-5eea19.netlify.app
 Atividade do primeiro modulo de programação da formação Full stack Recode Pro 2022!
 Sou estudante de desenvolvimento Full stack, graduado em Análise e Desenvolvimento de Sistemas.
 
-Esse projeto é referente a uma atividade avaliativa, cujo tema proposto é criar um site responsivo utilizando HTML5, CSS3 e Bootstrap 
+Esse projeto é referente a uma atividade avaliativa, cujo tema proposto é criar um protótipo de site responsivo utilizando HTML5, CSS3 e Bootstrap 
 
 ## Layout web
 ![Pagina inicial](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/images/capas-github/page1.png) ![pagina passagens](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/images/capas-github/page2.png)
