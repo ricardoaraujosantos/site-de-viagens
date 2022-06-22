@@ -15,16 +15,14 @@ Sou estudante de desenvolvimento Full stack, graduado em Análise e Desenvolvime
 Esse projeto é referente a uma atividade avaliativa, cujo tema proposto é criar um site responsivo utilizando HTML5, CSS3 e Bootstrap 
 
 ## Layout web
-![capa jogo]() ![img Inicio]()
+![Pagina inicial](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/images/capas-github/page1.png) ![pagina passagens](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/images/capas-github/page2.png)
 
-![img game over]()
-
-![img acertou todos os cards]() ![img ganhou o jogo]()
+![Pagina de promoções](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/images/capas-github/page3.png) ![Pagina de formularios](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/images/capas-github/page4.png)
 
 # Tecnologias utilizadas
 - HTML5 
 - CSS3
-- Bootstrap Versão-5.1
+- Bootstrap CDN Versão-5.1
 
 # Como executar o projeto
 
