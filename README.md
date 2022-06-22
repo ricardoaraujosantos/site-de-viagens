@@ -15,7 +15,7 @@ https://clinquant-treacle-5eea19.netlify.app
 Atividade do primeiro modulo de programação da formação Full stack Recode Pro 2022!
 Sou estudante de desenvolvimento Full stack, graduado em Análise e Desenvolvimento de Sistemas.
 
-Esse projeto é referente a uma atividade avaliativa, cujo tema proposto é criar um protótipo de site responsivo utilizando HTML5, CSS3 e Bootstrap 
+Esse projeto é referente a uma atividade avaliativa, cujo tema proposto é criar um protótipo de um site de uma agencia de Viagens, responsivo, utilizando HTML5, CSS3 e Bootstrap 
 
 ## Layout web
 ![Pagina inicial](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/images/capas-github/page1.png) ![pagina passagens](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/images/capas-github/page2.png)
