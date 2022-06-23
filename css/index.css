@@ -46,13 +46,6 @@
     height: 25px;
 }
 
-.main-capture{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 260px;
-}
-
 .btn-lupa{
     background: url(../images/icon-lupa.png) no-repeat;
     background-size: contain;
@@ -102,7 +95,7 @@
     background-color: transparent;
 }
 
-.footer-img{
+.footer-icon{
     width: 40px;
     height: 40px;
     margin-right: 6px;
@@ -198,18 +191,6 @@
         margin: 10px 0;
     }
 
-    .ajust-nav-sm{
-        flex-wrap: wrap;
-        justify-content: center;
-        font-size: 16px;
-        width: 100%;  
-    }
-
-    .ajust-nav-sm li{
-        font-size: 16px;
-        width: 340px;  
-    }
-
     .input-form{
         width: 100%;
     }
@@ -219,7 +200,7 @@
 @media screen and (max-width: 425px) {
     .carousel-aside{
         max-width: 100%;    
-        margin: 65px 0;
+        margin: 20px 0;
     }
 
     .carousel-aside img{
@@ -227,7 +208,7 @@
     }
 
     .ajust-capture-sm {
-        font-size: 16px;
+       
         width: 87px;
         text-align: left;
         padding: 2px 0;
@@ -236,12 +217,10 @@
     .ajust-nav-sm{
         flex-wrap: wrap;
         justify-content: center;
-        font-size: 16px;
         width: 100%;  
     }
 
     .ajust-nav-sm li{
-        font-size: 16px;
         width: 300px;  
     }
 
