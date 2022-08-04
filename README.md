@@ -1,5 +1,8 @@
 # site-de-viagens
-Formação Full Stack Recode Pro, projeto Front-end um site responsivo desenvolvido com Html5, CSS3 e Bootstrap
+
+## Formação Full Stack Recode Pro 2022
+
+Projeto um site de viagens desenvolvido com Html5, CSS3 e Bootstrap
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/LICENSE)
 
