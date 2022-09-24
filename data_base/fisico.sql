@@ -58,3 +58,5 @@ id_compra INTEGER,
 FOREIGN KEY(id_hospedagem) REFERENCES hospedagem (id_hospedagem),
 FOREIGN KEY(id_compra) REFERENCES compra (id_compra)
 );
+
+ALTER TABLE hospedagem add imagem varchar(70);
