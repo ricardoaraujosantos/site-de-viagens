@@ -59,4 +59,9 @@ FOREIGN KEY(id_hospedagem) REFERENCES hospedagem (id_hospedagem),
 FOREIGN KEY(id_compra) REFERENCES compra (id_compra)
 );
 
+ALTER TABLE item_passagem ADD id_item_passagem INTEGER PRIMARY KEY auto_increment FIRST;
+
+ALTER TABLE passagem
+CHANGE valor_passagem valor_passagem decimal(6, 2) ;
+
 ALTER TABLE hospedagem add imagem varchar(70);
