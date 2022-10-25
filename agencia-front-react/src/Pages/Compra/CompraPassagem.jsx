@@ -28,10 +28,10 @@ const CompraPassagem = () => {
         <div className="container py-4">
         <table className="table">
             <thead>
-                <th>Empresa</th>
-                <th>Embarque</th>
-                <th>Desembarque</th>
-                <th>Valor da Passagem</th>
+                <th width="25%">Empresa</th>
+                <th width="25%">Embarque</th>
+                <th width="25%">Desembarque</th>
+                <th width="25%">Valor</th>
             </thead>
             <tbody>
             <tr className="border border-2">
@@ -39,7 +39,11 @@ const CompraPassagem = () => {
                 <td className="py-4">{passagem.embarque}</td>
                 <td className="py-4">{passagem.desembarque}</td>
                 <td className="py-4">R$ {passagem.valor_passagem}</td>
-                <td className="py-4">
+               
+
+            </tr>
+            <tr>
+            <td className="py-4">
                     <Link
                         className="btn btn-success btn-sm me-2"
                         to={"/login"}
@@ -47,13 +51,12 @@ const CompraPassagem = () => {
                         Pagamento
                     </Link>
                     <Link
-                        className="btn btn-warning btn-sm"
+                        className="btn btn-warning btn-sm my-2"
                         to={"/passagem"}
                     >
                         Voltar
                     </Link>
                 </td>
-
             </tr>
             </tbody>
         </table>
