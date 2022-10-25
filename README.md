@@ -16,9 +16,9 @@ Sou estudante de desenvolvimento Full stack, graduado em Análise e Desenvolvime
 Esse projeto é referente a uma atividade avaliativa, cujo tema proposto é criar um site de uma agencia de Viagens
 
 ## Layout web
-![Pagina inicial](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/images/capas-github/page1.png) ![pagina passagens](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/images/capas-github/page2.png)
+![Pagina Home](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/capas-github/pagehome.png) ![pagina passagens](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/capas-github/pagepassagem.png)
 
-![Pagina de promoções](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/images/capas-github/page3.png) ![Pagina de formularios](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/images/capas-github/page4.png)
+![View hospedagem Api](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/capas-github/viewapihospedagem.png) ![View passagem Api](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/capas-github/viewapipassagem.png)
 
 # Tecnologias utilizadas
 
