@@ -1,26 +1,26 @@
-# site-de-viagens
+## site-de-viagens
 
-## Formação Full Stack Recode Pro 2022
+### Formação Full Stack Recode Pro 2022
 
 Projeto um site de viagens desenvolvido com Js, ReactJs Java, Spring, MySQL
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/LICENSE)
 
-# Sobre o projeto
+## Sobre o projeto
 
-## Nome: Agencia Viajar 
+### Nome: Agencia Viajar 
 
 Formação Full stack Recode Pro 2022!
 Sou estudante de desenvolvimento Full stack, graduado em Análise e Desenvolvimento de Sistemas.
 
 Esse projeto é referente a uma atividade avaliativa, cujo tema proposto é criar um site de uma agencia de Viagens
 
-## Layout web
+### Layout web
 ![Pagina Home](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/capas-github/pagehome.png) ![pagina passagens](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/capas-github/pagepassagem.png)
 
 ![View hospedagem Api](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/capas-github/viewapihospedagem.png) ![View passagem Api](https://github.com/ricardoaraujosantos/site-de-viagens/blob/main/capas-github/viewapipassagem.png)
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 
 ### Front-end
 - HTML5 
@@ -36,7 +36,7 @@ Esse projeto é referente a uma atividade avaliativa, cujo tema proposto é cria
 ### Data Base
 - MySQL
 
-# Como executar o projeto
+## Como executar o projeto
 
 ### Front-end
 - Clone o repositorio
