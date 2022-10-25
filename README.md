@@ -10,11 +10,6 @@ Projeto um site de viagens desenvolvido com Js, ReactJs Java, Spring, MySQL
 
 ## Nome: Agencia Viajar 
 
-### Clique no link abaixo para navegar no site
-
-https://clinquant-treacle-5eea19.netlify.app
-
-
 Formação Full stack Recode Pro 2022!
 Sou estudante de desenvolvimento Full stack, graduado em Análise e Desenvolvimento de Sistemas.
 
