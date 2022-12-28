@@ -63,7 +63,7 @@ const Hosting = () => {
                     <div className="row">
                         {CidadesInternacionais.map((h) => (
                             <div key={h.id} className="col img-container">
-                                <img className="img-width" src={h.foto} alt={h.descricao} />
+                                <img className="img-width border rounded" src={h.foto} alt={h.descricao} />
                                 <p>{h.nome}</p>
                             </div>
                         ))}
@@ -76,14 +76,12 @@ const Hosting = () => {
             <Title name="Hospedagens" />
             <View>
                 {hospedagem.map((h) => (
-                    <tr key={h.id} className="m-4 border border-3 tr-width">
+                    <tr key={h.id} className="m-4 border rounded border-2 border-dark tr-width">
                         {/* //<th scope="row" ></th> */}
                         <td>
-                            <strong>Hospedagem</strong>
-                            <p className="my-0">{h.empresa}</p>
-                            <p className="my-0">{h.endereco}</p>
-                            <p className="my-0">Preço: R$ {h.preco_diaria}</p>
-                            <p className="my-0">{h.imagem}</p>
+                            <p className="my-0"><strong>Empresa: </strong>{h.empresa}</p>
+                            <p className="my-0"><strong>Local: </strong>{h.endereco}</p>
+                            <p className="my-0"><strong>Diaria: </strong>R$ {h.preco_diaria.toFixed(2)}</p>
 
                             <p className="mt-2 mx-auto">
                                 <Link

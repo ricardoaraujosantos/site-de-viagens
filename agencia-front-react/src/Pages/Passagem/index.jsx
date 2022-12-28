@@ -61,7 +61,7 @@ const Passagem = () => {
                     <div className="row">
                         {CidadesInternacionais.map((h) => (
                             <div key={h.id} className="col-sm-12 col-md-6 img-container">
-                                <img className="img-width" src={h.foto}  alt={h.descricao} />
+                                <img className="img-width border rounded" src={h.foto}  alt={h.descricao} />
                                 <p>{h.nome}</p>
                             </div>
                         ))}
@@ -74,24 +74,24 @@ const Passagem = () => {
             <Title name="Passagens" />
             <View>
                 {passagem.map((p) => (
-                    <tr key={p.id_passagem} className="mt-4 mb-1 me-2 border border-4 flex-wrap tr-width">
+                    <tr key={p.id_passagem} className="m-4 border rounded border-2 border-dark flex-wrap tr-width">
                         {/* <th scope="row" ></th> */}
                         <td >
                             <p>
                             <i className="ri-flight-takeoff-line border border-2 p-1 mx-1"></i>
-                            <strong>Embarque</strong>  {p.desembarque}
+                            <strong>Embarque: </strong>  {p.desembarque}
                             </p>
                             <p>
                             <i className="ri-flight-land-line border border-2 p-1 mx-1"></i>
-                            <strong>Desembarque</strong>  {p.embarque}
+                            <strong>Desembarque: </strong>  {p.embarque}
                             </p>
                             <p>
                             <i className="ri-plane-fill border border-2 p-1 mx-1"></i>
-                            <strong>Empresa</strong>  {p.empresa}
+                            <strong>Empresa: </strong>  {p.empresa}
                             </p>
                             <p>
                             <i className="ri-money-dollar-box-line border border-2 p-1 mx-1"></i>
-                            <strong>Valor</strong>  R$ {p.valor_passagem}
+                            <strong>Valor: </strong>  R$ {p.valor_passagem.toFixed(2)}
                             </p>
                             <p className="mt-2">
                             <Link

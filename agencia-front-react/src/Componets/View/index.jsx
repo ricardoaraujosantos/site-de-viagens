@@ -10,7 +10,7 @@ const  View = ( {children} ) => {
                             <th scope="col"></th>
                         </tr>
                     </thead>
-                    <tbody className="d-flex flex-wrap justify-content-center">
+                    <tbody className="d-flex flex-wrap justify-content-start">
                         {children}
                     </tbody>
                 </table>
