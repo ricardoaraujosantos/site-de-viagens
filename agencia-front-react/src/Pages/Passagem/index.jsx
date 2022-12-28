@@ -75,7 +75,6 @@ const Passagem = () => {
             <View>
                 {passagem.map((p) => (
                     <tr key={p.id_passagem} className="m-4 border rounded border-2 border-dark flex-wrap tr-width">
-                        {/* <th scope="row" ></th> */}
                         <td >
                             <p>
                             <i className="ri-flight-takeoff-line border border-2 p-1 mx-1"></i>

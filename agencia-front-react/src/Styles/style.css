@@ -1,3 +1,6 @@
+
+
+
 .img-carousel{
     height: 400px;
     width: 100%;
@@ -10,6 +13,29 @@
 
 .tr-width{  
     width: auto;
+}
+
+@media (min-width: 1024px){
+    .background-plane{
+        background: url(https://i.pinimg.com/originals/e5/71/77/e571770f00d1bce84879633ac71f3df0.png) no-repeat;
+        margin: 0;
+        background-size: auto;
+        padding: 0;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        animation: slideleft 20s infinite linear;
+    }
+    
+    @keyframes slideleft{
+        from {
+            transform: translateX(0);
+        }
+        
+        to {
+            transform: translateX(1300px);
+        }
+    }
 }
 
 @media (max-width: 1320px) {
@@ -30,7 +56,7 @@
 }
 
 @media (max-width: 900px) {
-   
+
     .img-width{
        margin: 0 30px;
         width: 300px;

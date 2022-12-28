@@ -39,8 +39,6 @@ const CompraPassagem = () => {
                 <td className="py-4">{passagem.embarque}</td>
                 <td className="py-4">{passagem.desembarque}</td>
                 <td className="py-4">R$ {passagem.valor_passagem}</td>
-               
-
             </tr>
             <tr>
             <td className="py-4">

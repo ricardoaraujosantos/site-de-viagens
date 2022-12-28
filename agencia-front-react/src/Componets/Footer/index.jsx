@@ -21,21 +21,21 @@ const Footer = () => {
                 <div className="row sm-footer-row">
                     <div className="col-lg-2 col-md-4 ">
                         <h5>Sobre</h5>
-                        <Link to={""}>
+                        <Link className="text-white" to={""}>
                             <p>Quem somos</p>
                         </Link>
                     </div>
 
                     <div className="col-lg-2  col-md-4">
                         <h5>Aluguel</h5>
-                        <Link to={""}>
+                        <Link className="text-white"  to={""}>
                             <p>Carros</p>
                         </Link>
                     </div>
 
                     <div className="col-lg-2  col-md-4">
                         <h5>Conta</h5>
-                        <Link to={""} id="permissao" >
+                        <Link className="text-white" to={""} id="permissao" >
                             <p>Permissões</p>
                         </Link>
 
@@ -53,7 +53,7 @@ const Footer = () => {
                                 aria-describedby="user e-mail"
                                 onChange={(e) => onInputChange(e)}
                             />
-                            <button type="button" className="btn btn-primary btn-sm">Se inscrever</button>
+                            <button type="button" className="btn btn-outline-dark fw-bolder btn-sm">Inscrever-me</button>
                         </div>
                     </div>
 
