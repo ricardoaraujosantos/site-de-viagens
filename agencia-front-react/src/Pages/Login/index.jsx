@@ -28,7 +28,7 @@ const LoginUser = () => {
     return (
 
         <form onSubmit={(e) => onSubmit(e)} id="modal" aria-labelledby="modalLabel" aria-hidden="true">
-            <div className="modal-dialog">
+            <div className="modal-dialog border border-dark">
                 <div className="modal-content">
 
                     <div className="modal-header">
@@ -68,7 +68,7 @@ const LoginUser = () => {
                             </div>
                         </div>
                         <div className="my-4">
-                           <Link to={'/'}>Não tem cadastro? Cadastre-se</Link>
+                           <label>Não possui cadastro? <Link to={'/'} className="text-success fw-bolder">Cadastre-se!</Link></label>
                         </div>
                     </div>
                 </div>

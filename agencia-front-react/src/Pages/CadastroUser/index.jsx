@@ -30,7 +30,7 @@ const CadastroUser = () => {
     return (
 
         <form onSubmit={(e) => onSubmit(e)} id="modal" aria-labelledby="modalLabel" aria-hidden="true">
-            <div className="modal-dialog">
+            <div className="modal-dialog border border-dark">
                 <div className="modal-content">
 
                     <div className="modal-header">
